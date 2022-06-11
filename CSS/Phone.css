@@ -1,0 +1,116 @@
+body {
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    padding: 12px;
+}
+
+.left {
+    margin: -11px;
+    padding: 0px;
+}
+
+.left img {
+    padding: 0;
+    width: 60px;
+    margin-left: -47px;
+}
+
+.left div {
+    font-size: 9px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: -46px;
+    margin-top: 3px;
+}
+
+.mid {
+    display: flex;
+    width: 20%;
+    margin: -4px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a {
+    float: left;
+    list-style-type: none;
+    padding: 0x;
+    margin: 0px 3px;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.right {
+    flex-direction: row;
+    margin: 0px;
+    margin-right: -63px;
+    width: min-content;
+}
+
+.right button {
+    flex-direction: row;
+    font-size: 8px;
+    padding: 6px;
+    margin: 0px;
+    margin-right: 6px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.container h1 {
+    font-size: 1rem;
+    padding: 0px;
+    margin-top: -60px;
+}
+
+.form-group input {
+    width: max-content;
+    font-size: 1rem;
+}
+
+.form-group button {
+    width: max-content;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    position: absolute;
+    
+    width: 97%;
+}
+
+.center {
+    text-align: center;
+    font-size: 0.7rem;
+}

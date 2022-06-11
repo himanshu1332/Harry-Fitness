@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../Img/depositphotos_176020348-stock-photo-athletic-young-male-fitness-model.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.left div {
+    line-height: 1px;
+    text-align: center;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left {
+    display: inline-block;
+    /*
+border: 2px solid red;
+*/
+    position: absolute;
+    left: 60px;
+    top: 20px
+}
+
+.mid {
+    /*border: 2px solid green;*/
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid yellow;*/
+    position: absolute;
+    right: 60px;
+    top: 20px
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10x;
+    margin: 0px 12px;
+    font-size: 25px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 14px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(102, 98, 98);
+}
+
+.container {
+    border: 2px solid green;
+    margin: 125px 114px;
+    padding: 75px 75px;
+    width: 30%;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    padding: 1px;
+    width: 508px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 15px auto;
+}
+
+.form-group1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    position: absolute;
+    
+    width: 97%;
+}
+
+.center {
+    text-align: center;
+}
